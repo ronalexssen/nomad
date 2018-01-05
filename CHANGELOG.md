@@ -5,6 +5,7 @@ BUG FIXES:
  * core: Fix an issue in which batch jobs with queued placements and lost
    allocations could result in improper placement counts [[GH-3717](https://github.com/hashicorp/nomad/issues/3717)]
  * config: Revert minimum CPU limit back to 20 from 100.
+ * ui: Fix ui on non-leaders when ACLs are enabled [[GH-3722](https://github.com/hashicorp/nomad/issues/3722)]
 
 ## 0.7.1 (December 19, 2017)
 
